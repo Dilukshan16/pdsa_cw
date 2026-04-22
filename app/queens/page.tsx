@@ -1,5 +1,7 @@
 
+
 import QueensBoard from "@/components/QueensBoard";
+
 
 
 export default function QueensPage() {
