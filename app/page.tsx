@@ -1,12 +1,9 @@
 'use client'
 
-
 import Image from "next/image";
 import { motion } from "framer-motion";
 import Link from "next/link";
 import { use } from "react";
-
-
 
 const games = [
   {
@@ -25,9 +22,9 @@ const games = [
     href: "/games/snake",
   },
   {
-    title: "Snake & Ladders",
+    title: "Knights Tour",
     description: "Classic board game fun",
-    href: "/games/snake",
+    href: "/knights",
   },
   {
     title: "Snake & Ladders",
