@@ -20,6 +20,11 @@ const games = [
     href: "/games/min-cost",
   },
   {
+    title: "Traffic Simulation",
+    description: "Optimize task assignments",
+    href: "/traffic-simulation",
+  },
+  {
     title: "Snake & Ladders",
     description: "Classic board game fun",
     href: "/games/snake",

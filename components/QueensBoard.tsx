@@ -1,7 +1,7 @@
 "use client";
 
 import { useState, useEffect } from "react";
-import ComparisonGraph from "./ComparisonGraph";
+import ComparisonGraph from "./TSComparisonGraph";
 
 export default function QueensBoard() {
   const [size] = useState(16);
