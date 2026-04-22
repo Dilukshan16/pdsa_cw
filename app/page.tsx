@@ -9,12 +9,17 @@ const games = [
   {
     title: "Sixteen Queens",
     description: "Solve the queens puzzle ",
-    href: "/games/queens",
+    href: "/queens",
   },
   {
     title: "Minimum Cost",
     description: "Optimize task assignments",
     href: "/games/min-cost",
+  },
+  {
+    title: "Traffic Simulation",
+    description: "Optimize task assignments",
+    href: "/traffic-simulation",
   },
   {
     title: "Snake & Ladders",
