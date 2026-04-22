@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
-import ResultCard from '@/components/snake-ladder/ResultCard';
+import ResultCard from '@/components/components/snake-ladder/ResultCard';
 
 export default function ResultPage() {
   const router = useRouter();

@@ -4,9 +4,9 @@ import { useEffect, useState, useCallback } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import { solveGame, GameDataSL } from '@/lib/snake-ladder/api';
-import GameBoard from '@/components/snake-ladder/GameBoard';
-import ChoicePanel from '@/components/snake-ladder/ChoicePanel';
-import TimerBar from '@/components/snake-ladder/TimerBar';
+import GameBoard from '@/components/components/snake-ladder/GameBoard';
+import ChoicePanel from '@/components/components/snake-ladder/ChoicePanel';
+import TimerBar from '@/components/components/snake-ladder/TimerBar';
 
 export default function GamePage() {
   const router = useRouter();

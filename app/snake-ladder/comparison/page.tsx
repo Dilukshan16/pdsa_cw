@@ -3,7 +3,7 @@
 import { useEffect, useState } from 'react';
 import Link from 'next/link';
 import { getComparison, ComparisonData } from '@/lib/snake-ladder/api';
-import ComparisonTable from '@/components/snake-ladder/ComparisonTable';
+import ComparisonTable from '@/components/components/snake-ladder/ComparisonTable';
 
 export default function ComparisonPage() {
   const [data, setData]       = useState<ComparisonData | null>(null);
