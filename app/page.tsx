@@ -31,6 +31,11 @@ const games = [
     description: "Classic board game fun",
     href: "/knights",
   },
+  {
+    title: "Snake & Ladders",
+    description: "Classic board game fun",
+    href: "/snake-ladder",
+  },
 ];
 
 
