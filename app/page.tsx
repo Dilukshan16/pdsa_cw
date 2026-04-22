@@ -9,7 +9,7 @@ const games = [
   {
     title: "Sixteen Queens",
     description: "Solve the queens puzzle ",
-    href: "/games/queens",
+    href: "/queens",
   },
   {
     title: "Minimum Cost",
@@ -30,11 +30,6 @@ const games = [
     title: "Knights Tour",
     description: "Classic board game fun",
     href: "/knights",
-  },
-  {
-    title: "Snake & Ladders",
-    description: "Classic board game fun",
-    href: "/games/snake",
   },
 ];
 
